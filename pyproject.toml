@@ -1,0 +1,16 @@
+[project]
+name = "expertsystem-fastapi-backend-restapi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi==0.115.4",
+    "uvicorn==0.32.0",
+    "numpy==2.0.2",
+    "joblib==1.4.2",
+    "pandas==2.2.2",
+    "scikit-learn==1.6.1",
+    "scipy==1.14.1",
+    "ruff>=0.11.6",
+]
